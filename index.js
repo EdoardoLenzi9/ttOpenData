@@ -91,6 +91,7 @@ app.post('/multiply', function (req, res) {
     res.write('?x: ' + x + '\n');
     res.write('?y: ' + y + '\n');
     res.write('multiply: ' + multiply + '\n');
+    res.write('polenta e crauti');
     //send response
     res.end();
     
