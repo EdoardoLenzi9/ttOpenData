@@ -98,7 +98,7 @@ app.post('/multiply', function (req, res) {
 
 
 //listen in a specific port
-app.listen(port, hostname);
+server.listen(process.env.PORT || 80);
 
 //check status
 console.log('Server running at http://localhost:80/');
