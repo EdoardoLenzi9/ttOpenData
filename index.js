@@ -71,6 +71,7 @@ app.post('/sum', function (req, res) {
     res.write('?x: ' + x + '\n');
     res.write('?y: ' + y + '\n');
     res.write('sum: ' + sum + '\n');
+    res.write('\npolenta e crauti\n');
     //send response
     res.end();
     
@@ -88,6 +89,7 @@ app.post('/multiply', function (req, res) {
     var multiply = x * y;
     
     //write response
+    res.write('\npolenta e crauti\n');
     res.write('?x: ' + x + '\n');
     res.write('?y: ' + y + '\n');
     res.write('multiply: ' + multiply + '\n');
