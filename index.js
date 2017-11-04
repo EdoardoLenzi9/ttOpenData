@@ -61,6 +61,21 @@ app.get('/sum', function (req, res) {
     res.end();
 });
 
+var urbanService = require('./Services/urbanService.js');
+var extraurbanService = require('./Services/extraurbanService.js');
+
+app.get('/urban/getRoutesNames', function(req, res) {
+          urbanService.getRoutes().then(function(value) {
+            res.send(value);
+          });
+        });
+
+app.get('/urban/getRoutes', function(req, res) {
+          urbanService.getRoutes().then(function(value) {
+            res.send(value);
+          });
+        });
+
 
 //handle get req on /sum
 app.get('/multiply', function (req, res) {    
