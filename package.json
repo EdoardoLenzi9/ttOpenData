@@ -16,7 +16,8 @@
   "description": "Online material: - http://expressjs.com/it/starter/basic-routing.html",
   "dependencies": {
     "express": "^4.16.2",
-    "util": "^0.10.3"
+    "util": "^0.10.3",
+    "mongodb": "^2.2.33"
   },
   "bugs": {
     "url": "https://github.com/EdoardoLenzi9/ttOpenData/issues"
