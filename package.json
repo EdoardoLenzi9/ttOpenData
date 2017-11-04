@@ -1,16 +1,25 @@
 {
-  "name": "ciao",
+  "name": "external_api",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Marco",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdoardoLenzi9/ttOpenData.git"
+  },
+
+  "author": "edoardo",
   "license": "ISC",
   "description": "Online material: - http://expressjs.com/it/starter/basic-routing.html",
   "dependencies": {
     "express": "^4.16.2",
     "util": "^0.10.3"
   },
-  "devDependencies": {}
+  "bugs": {
+    "url": "https://github.com/EdoardoLenzi9/ttOpenData/issues"
+  },
+  "homepage": "https://github.com/EdoardoLenzi9/ttOpenData#readme"
 }
